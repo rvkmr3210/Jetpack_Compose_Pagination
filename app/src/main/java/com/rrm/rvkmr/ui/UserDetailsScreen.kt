@@ -17,7 +17,7 @@ import com.rrm.rvkmr.data.models.UserModel
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun UserDetailsScreen(userModel: UserModel) {
-    
+
     Scaffold(
         topBar = {
             TopAppBar(
