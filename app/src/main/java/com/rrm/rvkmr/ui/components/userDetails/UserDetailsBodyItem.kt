@@ -25,7 +25,7 @@ fun UserDetailsBodyItem(heading: String, details: String?, icon: ImageVector) {
             Text(
                 text = details ?: "N/A",
                 Modifier.fillMaxWidth(),
-                style = MaterialTheme.typography.titleLarge
+                style = MaterialTheme.typography.titleMedium
             )
         },
         leadingContent = {
@@ -35,14 +35,13 @@ fun UserDetailsBodyItem(heading: String, details: String?, icon: ImageVector) {
                     .width(30.dp),
                 imageVector = icon,
                 contentDescription = "User $heading Image",
-                tint = MaterialTheme.colorScheme.primary
             )
         },
         overlineText = {
             Text(
                 text = heading,
                 Modifier.fillMaxWidth(),
-                style = MaterialTheme.typography.titleMedium
+                style = MaterialTheme.typography.titleSmall
             )
         })
 

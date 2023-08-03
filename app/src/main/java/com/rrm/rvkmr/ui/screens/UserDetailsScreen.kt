@@ -87,27 +87,17 @@ fun UserDetailsUi(
                     Modifier
                         .fillMaxSize()
                         .padding(it)
-                        .padding(16.dp)
                 ) {
 
                     UserDetailsHeader(user = user)
 
-                    UserDetailsSubHeader(  user = user )
-
-                    Spacer(modifier = Modifier.height(16.dp))
+                    Spacer(modifier = Modifier.height(24.dp))
 
                     UserDetailsBodyItem(
                         heading = "Email",
                         details = user?.email,
                         icon = Icons.Default.Email
                     )
-
-                    UserDetailsBodyItem(
-                        heading = "Location",
-                        details = user?.location,
-                        icon = Icons.Default.LocationOn
-                    )
-
 
                 }
 
