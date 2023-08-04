@@ -14,7 +14,7 @@ This sample project demonstrates how to implement pagination in a Jetpack Compos
 - [Paging Library](https://developer.android.com/topic/libraries/architecture/paging/v3-overview): Library for handling pagination and large datasets
 - [Hilt](https://developer.android.com/training/dependency-injection/hilt-android): Dependency Injection
 - [Retrofit](https://square.github.io/retrofit/): HTTP client for API communication
-- [Gson](): JSON serialization/deserialization library
+- [Gson](https://github.com/google/gson): JSON serialization/deserialization library
 - [Coil](https://github.com/coil-kt/coil#jetpack-compose): Image loading library 
   
 
