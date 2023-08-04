@@ -24,10 +24,22 @@ This sample project demonstrates how to implement pagination in a Jetpack Compos
 <ol>
   <li>
     Create a PagingSource class that defines how to load data in chunks. This class will handle fetching the data for each page using Retrofit to interact with GitHub's API.
-    
-    <img width="893" alt="Screenshot 2023-08-04 at 10 41 55 AM" src="https://github.com/rvkmr3210/ComposePagination/assets/37369324/909049f2-8319-4d06-8eae-8986c8528499">
+    <br>
+  <img width="893" alt="Screenshot 2023-08-04 at 10 41 55 AM" src="https://github.com/rvkmr3210/ComposePagination/assets/37369324/909049f2-8319-4d06-8eae-8986c8528499">
   </li>
-  <li></li>
+  <li>
+   
+  Configure the Paging data flow in the view model using Pager and Flow.
+  <img width="786" alt="Screenshot 2023-08-04 at 10 42 20 AM" src="https://github.com/rvkmr3210/ComposePagination/assets/37369324/46d7407e-e12c-4131-9759-dc83cac2f6c3">
+
+  </li>
+  <li> Collect the paging data flow in the Composable and use it to display the paginated list using Jetpack Compose's LazyColumn.
+    <br>
+  <img width="758" alt="Screenshot 2023-08-04 at 10 43 44 AM" src="https://github.com/rvkmr3210/ComposePagination/assets/37369324/51e99d01-ff03-4f0f-9f13-02cd26f367e2">
+ <br>
+  <img width="773" alt="Screenshot 2023-08-04 at 10 43 26 AM" src="https://github.com/rvkmr3210/ComposePagination/assets/37369324/0a5823d4-f33c-41ab-bfaa-2c4677e7b178">
+
+  </li>
 </ol>
 
 <H2>API Configuration</H2>
