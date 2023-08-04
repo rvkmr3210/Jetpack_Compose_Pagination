@@ -21,8 +21,7 @@ This sample project demonstrates how to implement pagination in a Jetpack Compos
 ## Pagination Implementation
 
 - Create a `PagingSource` class that defines how to load data in chunks. This class will handle fetching the data for each page using `Retrofit` to interact with GitHub's API.
-   ```kotlin
-   
+```kotlin
   class UsersPagingSource @Inject constructor(val apiService: ApiService) :
     PagingSource<Int, UserModel>() {
     override fun getRefreshKey(state: PagingState<Int, UserModel>): Int? {
@@ -51,7 +50,7 @@ This sample project demonstrates how to implement pagination in a Jetpack Compos
     }
   }
    
-   ```
+```
    
 - Configure the Paging data flow in the view model using `Pager` and `Flow`.
 ```kotlin
