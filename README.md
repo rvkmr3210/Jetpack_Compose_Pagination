@@ -20,6 +20,16 @@ This sample project demonstrates how to implement pagination in a Jetpack Compos
   <li> <B>Coil</B> - Image loading library</li>
 </ul>
 
+<H2>Pagination Implementation</H2>
+<ol>
+  <li>
+    Create a PagingSource class that defines how to load data in chunks. This class will handle fetching the data for each page using Retrofit to interact with GitHub's API.
+    
+    <img width="893" alt="Screenshot 2023-08-04 at 10 41 55 AM" src="https://github.com/rvkmr3210/ComposePagination/assets/37369324/909049f2-8319-4d06-8eae-8986c8528499">
+  </li>
+  <li></li>
+</ol>
+
 <H2>API Configuration</H2>
 This sample project uses GitHub's public APIs to fetch repositories. No authentication is required for accessing public repositories. If you plan to use authenticated APIs or APIs with higher rate limits, make sure to configure your authentication credentials properly.
 
