@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.rrm.rvkmr"
+    namespace = "com.rvkmr.pagination"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.rrm.rvkmr"
+        applicationId = "com.rvkmr.pagination"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
@@ -67,9 +67,10 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
-    //Paging
-    implementation("androidx.paging:paging-runtime-ktx:3.2.0")
-    implementation("androidx.paging:paging-compose:3.2.0")
+    //Paging Library
+    val pagingVersion="3.2.0"
+    implementation("androidx.paging:paging-runtime-ktx:$pagingVersion")
+    implementation("androidx.paging:paging-compose:$pagingVersion")
 
     //Image Loading
     implementation("io.coil-kt:coil-compose:2.3.0")
